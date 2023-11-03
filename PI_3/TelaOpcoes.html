@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de Escolha</title>
+    <link rel="stylesheet" href="TelaOpcoes.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Opções de Escolha</h1>
+
+        <h2>Automóveis Luxuosos:</h2>
+        <ul>
+            <li><input type="radio" id="luxuoso1" name="categoria" value="Porsche 911"> <label for="luxuoso1">Porsche 911</label></li>
+            <li><input type="radio" id="luxuoso2" name="categoria" value="BMW X1"> <label for="luxuoso2">BMW X1</label></li>
+        </ul>
+
+        <h2>Automóveis Populares:</h2>
+        <ul>
+            <li><input type="radio" id="popular1" name="categoria" value="Hyundai HB20 Sense 1.0"> <label for="popular1">Hyundai HB20 Sense 1.0</label></li>
+            <li><input type="radio" id="popular2" name="categoria" value="Fiat Cronos 1.0"> <label for="popular2">Fiat Cronos 1.0</label></li>
+            <li><input type="radio" id="popular3" name="categoria" value="Chevrolet Onix Plus LT 1.0"> <label for="popular3">Chevrolet Onix Plus LT 1.0</label></li>
+        </ul>
+
+        <h2>Automóveis Clássicos:</h2>
+        <ul>
+            <li><input type="radio" id="classico1" name="categoria" value="Volkswagen Fusca"> <label for="classico1">Volkswagen Fusca</label></li>
+            <li><input type="radio" id="classico2" name="categoria" value="Volkswagen Kombi"> <label for="classico2">Volkswagen Kombi</label></li>
+            <li><input type="radio" id="classico3" name="categoria" value="Chevrolet Opala"> <label for="classico3">Chevrolet Opala</label></li>
+        </ul>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <button id="sair" class="btn btn-danger exit-button">Sair</button>
+            </div>
+            <div class="col-md-6 text-right">
+                <button id="comprar" class="btn btn-success">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <script src="TelaOpcoes.js"></script>
+</body>
+</html>

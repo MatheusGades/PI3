@@ -1,0 +1,13 @@
+/* Estilo para o botão "Sair" no canto inferior esquerdo */
+#sair {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+}
+
+/* Estilo para o botão "Entrar" no canto inferior direito */
+#entrar {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+}
