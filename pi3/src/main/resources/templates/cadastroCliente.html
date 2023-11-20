@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" th:href="@{/css/cadastroCliente.css}" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head> 
+<body>
+    <div class="container-fluid">
+        <h1>Cadastro cliente</h1>
+        <form id="cadastro-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control form-control-sm col-4" id="nome" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="form-control form-control-sm col-4" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control form-control-sm col-4" id="email" placeholder="exemplo@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" class="form-control form-control-sm col-4" id="endereco" placeholder="Endereço" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="text" class="form-control form-control-sm col-4" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-6">
+                <button id="sair" class="btn btn-danger exit-button">Sair</button>
+            </div>
+            <div class="col-md-6 text-right">
+                <button id="proximo" class="btn btn-primary" >Próximo</button>
+            </div>
+        </div>
+    </div>
+    <script th:src="@{/js/cadastroCliente.js}"></script>
+</body>
+</html>

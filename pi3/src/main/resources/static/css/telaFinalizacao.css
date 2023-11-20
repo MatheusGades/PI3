@@ -1,0 +1,11 @@
+/* Estilo para centralizar o texto */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+}
+
+h1 {
+    font-size: 24px;
+}
