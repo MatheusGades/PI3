@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/css/telaBoasVindas.css}" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Boas vindas ao sistema</h1>
+        <p>Selecione quem você é:</p>
+        <div class="button-container">
+            <button id="cliente">Cliente</button>
+            <span class="or">OU</span>
+            <button id="funcionario">Funcionário</button>
+            <button id="sair" class="exit-button">Sair</button>
+        </div>
+    </div>
+    <script th:src="@{/js/telaBoasVindas.js}"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Estilo do título */
+h1 {
+    font-size: 24px;
+  }
+  
+  /* Estilo da mensagem de boas-vindas */
+  p {
+    font-size: 16px;
+  }
+  
+/* Estilo do contêiner dos botões e "OU" */
+  .button-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+  }
+  
+  /* Estilo dos botões de Cliente e Funcionário */
+  button {
+    width: 120px; 
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo do "OU" no meio da tela */
+  .or {
+    font-size: 18px;
+  }
+  
+  /* Estilo do botão "Sair" */
+  .exit-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
